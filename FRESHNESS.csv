@@ -1,0 +1,2 @@
+row_id,claim,source_url,source_published_date,source_checked_utc,effective_from,effective_until,exported_utc,status,notes
+fictional-01,Booth fee 50 USD,https://example.com,2026-09-01,2026-10-20T12:00:00Z,2026-11-01,,2026-10-21T12:00:00Z,fictional,Not a real event; unknown dates must remain blank

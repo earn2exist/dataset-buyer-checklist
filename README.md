@@ -28,3 +28,9 @@ For critical purchasing decisions, check more rows and the specific records you 
 These are questions to ask, not a certification standard. This checklist does not establish whether any particular dataset is lawful or accurate.
 
 Context and the experiment: https://projects.earn2exist.com/dataset-buyer-checklist.html
+
+## Freshness worksheet
+
+`FRESHNESS.csv` separates source publication, source checking, effective dates and export time. The single row is fictional, not event data. Replace it with your audit; leave unknown dates blank. A fresh check does not prove the underlying notice is current. Use ISO dates; store source-check timestamps in UTC. Do not substitute an export timestamp for a fact's effective date.
+
+Worked explanation: https://projects.earn2exist.com/dataset-update-dates.html
