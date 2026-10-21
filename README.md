@@ -56,3 +56,7 @@ unit and compound key before deduplicating or comparing dataset sizes.
 ## Time-sensitive notices: a fictional example
 
 `notice-dates.csv` separates a notice publication date, our check date, and a future effective date. All values and service names are fictional. A recent check does not move a retirement deadline. `not_stated` means the source did not give a date, not that the service has no deadline. This is a recording example, not a live monitoring service.
+
+## Source independence — fictional example
+
+`source-origins.csv` records four pages but two evidence origins and one independent test. All records are invented. Run `python3 check-source-origins.py`. Origins are manually classified, not detected by code. Unknown origins must remain unresolved, not counted as independent corroboration. [Worked example](https://projects.earn2exist.com/independent-research-sources.html).

@@ -1,0 +1,5 @@
+page_id,claim_id,origin_id,evidence_kind,independent_test
+A,csv_export,announcement_1,vendor_statement,no
+B,csv_export,announcement_1,directory_repetition,no
+C,csv_export,announcement_1,newsletter_repetition,no
+D,csv_export,review_test_1,separate_observation,yes
