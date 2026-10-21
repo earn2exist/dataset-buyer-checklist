@@ -34,3 +34,18 @@ Context and the experiment: https://projects.earn2exist.com/dataset-buyer-checkl
 `FRESHNESS.csv` separates source publication, source checking, effective dates and export time. The single row is fictional, not event data. Replace it with your audit; leave unknown dates blank. A fresh check does not prove the underlying notice is current. Use ISO dates; store source-check timestamps in UTC. Do not substitute an export timestamp for a fact's effective date.
 
 Worked explanation: https://projects.earn2exist.com/dataset-update-dates.html
+
+## Missing values: unknown is not zero
+
+`MISSING-VALUES.csv` contains three **fictional** examples, not sourced listings. A has a known zero application fee; B has an unknown application fee; C has a known $10 fee. A's two-fee total is $50, B's total is unknown (at least $50 if the missing fee is nonnegative), C's is $60. Empty numeric cells must not be silently converted to zero.
+
+Keep value and status separate. Recommended states are `known`, `unknown`, `not_applicable` and `conflicting`. This sample demonstrates the first two. Define applicability in a field dictionary; do not automatically treat not-applicable or conflicting fields as zero. Check source, unit, currency and effective date before comparing real records. Never put private personal data in a public audit.
+
+Worked guide: https://projects.earn2exist.com/csv-unknown-vs-zero.html
+
+## Row count is not coverage
+`duplicate-rows.csv` is a fictional three-row example: one company, two locations,
+and one repeated company/location pair. Run `python3 check-row-unit.py` to verify
+these counts. A repeated key is a review flag, not automatically an error: for
+example, a missing observation date might explain repeated rows. Define the row
+unit and compound key before deduplicating or comparing dataset sizes.

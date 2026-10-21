@@ -1,0 +1,4 @@
+record_id,booth_fee_usd,booth_fee_status,application_fee_usd,application_fee_status,total_usd,total_status,scope
+fictional-A,50,known,0,known,50,known,booth and application fees only
+fictional-B,50,known,,unknown,,unknown,booth and application fees only
+fictional-C,50,known,10,known,60,known,booth and application fees only

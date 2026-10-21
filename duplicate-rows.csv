@@ -1,0 +1,4 @@
+row_id,entity_id,location_id,price_usd,note
+1,example-a,site-1,20,fictional
+2,example-a,site-1,20,duplicate of same location
+3,example-a,site-2,30,same entity different location
