@@ -49,3 +49,6 @@ and one repeated company/location pair. Run `python3 check-row-unit.py` to verif
 these counts. A repeated key is a review flag, not automatically an error: for
 example, a missing observation date might explain repeated rows. Define the row
 unit and compound key before deduplicating or comparing dataset sizes.
+
+## Observation is not intention
+`claim-evidence.csv` contains two fictional examples separating an observed fact from an unsupported inference. A past sponsor appearance does not prove current budget or interest. Replace examples with your own permitted sources; keep observation date, evidence link and the exact supported claim. Do not put private contact data in public logs.

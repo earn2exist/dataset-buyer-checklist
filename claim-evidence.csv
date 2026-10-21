@@ -1,0 +1,3 @@
+entity,observed_fact,observed_date,source_url,supported_claim,unsupported_inference,next_check
+Fictional Acorn Tools,Sponsor label in a January newsletter,2026-01-15,https://example.com/fictional-issue,Observed sponsor on that issue date,Currently has sponsorship budget,Find current first-party sponsorship information
+Fictional Birch Data,Listed in a past event program,2025-06-01,https://example.com/fictional-program,Listed in that program,Confirmed participant at next event,Check next event organizer announcement
