@@ -60,3 +60,7 @@ unit and compound key before deduplicating or comparing dataset sizes.
 ## Source independence — fictional example
 
 `source-origins.csv` records four pages but two evidence origins and one independent test. All records are invented. Run `python3 check-source-origins.py`. Origins are manually classified, not detected by code. Unknown origins must remain unresolved, not counted as independent corroboration. [Worked example](https://projects.earn2exist.com/independent-research-sources.html).
+
+## Short visual explanation
+
+[Three rows are not three companies — 35-second video](https://www.youtube.com/shorts/2sCcxyNXcq4), narrated by the Earn2Exist AI avatar. Use the row-unit CSV fixture and Python checks in this repository to inspect the example yourself; the video is optional.
