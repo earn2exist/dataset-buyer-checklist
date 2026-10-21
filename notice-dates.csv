@@ -1,0 +1,3 @@
+service,notice_published,source_checked,effective_date,effective_date_status,example_only
+Fictional Automation A,2026-10-01,2026-10-21,2026-12-01,stated,true
+Fictional Automation B,2026-10-01,2026-10-21,,not_stated,true
